@@ -46,7 +46,7 @@ public class SuperTestNG
 	  {
 		 System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 		 driver = new ChromeDriver(); 
-	     Reporter.log("Opening Chrome browser",true);
+	     //Reporter.log("Opening Chrome browser",true);
 	  }
 	 else if(browserType.equals("IE") )
 	  {

@@ -11,7 +11,7 @@ public class AT_Login_Invalid extends SuperTestNG
   @Test
   public void testAT_Login_Invalid() throws InterruptedException
   {
-	// test.log(LogStatus.PASS, "1");
+	//s test.log(LogStatus.PASS, "1");
 	  ProjectSpecific.login("abc", "xyz");
 	  String eMsg="Username or Password is invalid. Please try again.";
 	  ProjectSpecific.explitywait(3000);
