@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.projectName.LoginModule.AT_LoginLogout_Valid">
+        <methods>
+          <include name="dd"/>
+          <include name="postCondition"/>
+          <include name="end"/>
+          <include name="precondition"/>
+          <include name="testAT_LoginLogout_Valid"/>
+        </methods>
+      </class> <!-- com.projectName.LoginModule.AT_LoginLogout_Valid -->
+      <class name="com.projectName.LoginModule.AT_LoginLogout_Valid_Data_Driving_Test">
+        <methods>
+          <include name="dd"/>
+          <include name="postCondition"/>
+          <include name="end"/>
+          <include name="precondition"/>
+          <include name="testAT_LoginLogout_Valid_Data_Driving_Test"/>
+        </methods>
+      </class> <!-- com.projectName.LoginModule.AT_LoginLogout_Valid_Data_Driving_Test -->
+      <class name="com.projectName.LoginModule.AT_Login_Invalid">
+        <methods>
+          <include name="dd"/>
+          <include name="postCondition"/>
+          <include name="end"/>
+          <include name="testAT_Login_Invalid"/>
+          <include name="precondition"/>
+        </methods>
+      </class> <!-- com.projectName.LoginModule.AT_Login_Invalid -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
